@@ -1,0 +1,40 @@
+@import "variables";
+
+.services {
+  margin-top: 114px;
+  padding-bottom: 58px;
+  border-bottom: 2px solid  #ececec;
+}
+
+.services-headline {
+  max-width: 493px;
+}
+
+.under-services-headline {
+  margin: 50px auto 58px;
+  max-width: 510px;
+}
+
+.services-list {
+  max-width: 611px;
+}
+
+.services-item {
+max-width: 290px;
+  margin-bottom: 50px;
+}
+
+.services-icons {
+  color: $bright-color;
+  font-size: 40px;
+}
+
+.services-headline {
+  padding: 30px 0 17px;
+  opacity: 0.7;
+  color: #000000;
+  font-family: $semi-bold-font;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.27px;
+}

@@ -1,0 +1,92 @@
+@import "variables";
+
+.our-team {
+  margin-top: 138px;
+  padding-bottom: 110px;
+}
+
+.team-headline {
+  letter-spacing: 0.38px;
+}
+
+.team-text {
+  max-width: 446px;
+  margin: 40px 0 33px;
+}
+
+.team-bright-line {
+  max-width: 133px;
+  margin-bottom: 69px;
+}
+
+.person-data {
+  justify-content: flex-start;
+}
+.left-photo-block {
+  width: 321px;
+  height: 458px;
+  background-color: #f5f0dd;
+}
+
+.right-block {
+  margin-left: 74px;
+}
+.person-name {
+  font-size: 30px;
+}
+
+.person-info {
+  max-width: 630px;
+  margin: 35px 0 44px;
+}
+.person-social {
+  margin-bottom: 32px;
+  display: flex;
+}
+
+.person-social-items {
+  padding-right: 35px;
+  opacity: 0.8;
+  color: $primary-color;
+  font-family: $italic-font;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 24px;
+  letter-spacing: 0.9px;
+}
+
+.person-photo-item:not(:first-child){
+  margin-left: 20px;
+}
+
+.person-photo-item {
+  position: relative;
+}
+
+.person-photo-item:hover .hover-photo {
+  display: block;
+}
+
+
+.hover-photo {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  display: none;
+  background-color: $primary-color;
+  opacity: 0.5;
+}
+
+
+.name {
+  margin-top: 177px;
+  padding: 10px;
+  color: $light-color;
+  font-family: $semi-bold-font;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.17px;
+}

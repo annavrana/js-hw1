@@ -1,0 +1,83 @@
+@import "variables";
+
+.contact {
+  margin: 106px auto 110px;
+  position: relative;
+
+}
+
+.contact-text {
+  margin: 51px 0 54px;
+  max-width: 720px;
+}
+
+.contact-bright-line {
+  max-width: 132px;
+  margin-bottom: 75px;
+}
+
+.contact-form {
+  max-width: 732px;
+}
+.contact-input {
+  padding: 27px 111px 28px 48px;
+  background-color:#e5e5e5;
+  opacity: 1;
+  border: none;
+  border-radius: 5px;
+}
+
+.textarea {
+  margin: 45px 0;
+  padding: 35px 0 0 50px;
+  width: 731px;
+  height: 249px;
+  background-color:#e5e5e5;
+  opacity: 1;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-btn {
+  width: 100%;
+  padding: 29px 0;
+  color: $light-color;
+  font-family: $semi-bold-font;
+  font-size: 18px;
+  line-height: 34.06px;
+  text-transform: uppercase;
+  letter-spacing : 0.32px;
+}
+
+.contact-block {
+  position: absolute;
+  top: 321px;
+  left: 67%;
+  max-width: 577px;
+  background-color: #2d2d2d;
+}
+
+.contact-info {
+  margin-bottom: 39px;
+  color: $light-color;
+  font-family: $semi-bold-font;
+  font-size: 18px;
+  line-height: 34.06px;
+  text-transform: uppercase;
+  letter-spacing: 0.32px;
+}
+
+.info-text {
+  padding: 145px 213px 146px 81px;
+}
+.info-contact-text {
+  display: block;
+  color: $light-color;
+  //padding-bottom: 39px;
+
+}
+.mailto {
+  margin: 27px 0 25px;
+}
+
+

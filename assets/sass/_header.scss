@@ -1,0 +1,30 @@
+@import "variables";
+.header {
+  background-color: #f6f2f2;
+}
+
+.top-section {
+  margin: 108px auto 111px;
+}
+
+.top-headline {
+  max-width: 588px;
+  color: $primary-color;
+  font-family: $extra-bold-font;
+  font-size: 60px;
+  line-height: 72px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.top-under-headline {
+  margin-top: 36px;
+  max-width: 517px;
+  padding-right: 75px;
+  opacity: 0.7;
+}
+
+.top-video {
+  margin-right: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}

@@ -1,0 +1,28 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaksymTo/sass_geekhub.git"
+  },
+  "author": "anna_v",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaksymTo/sass_geekhub/issues"
+  },
+  "homepage": "https://github.com/MaksymTo/sass_geekhub#readme"
+}

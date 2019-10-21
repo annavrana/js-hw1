@@ -1,0 +1,24 @@
+@import "variables";
+
+footer {
+  background-color: #313030;
+}
+
+.footer-text {
+  padding: 57px 0 37px;
+  color: #b8b8b8;
+}
+
+.social-icons {
+  margin: 47px 0 31px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-items {
+  margin-left: 18px;
+  padding: 12px 17px;
+  color: $primary-color;
+  background-color: $light-color;
+  border-radius: 50%;
+}

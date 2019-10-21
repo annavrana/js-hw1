@@ -1,0 +1,29 @@
+@import "variables";
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #000000;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-items {
+  padding: 33px 23px;
+}
+.nav-items--active,
+.nav-items:hover {
+  background-color: #ff3f40;
+}
+.nav-link {
+  color: #e0e0e0;
+  font-family: $bold-font;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.49px;
+}
